@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    background-color: #EEEEEE;
+    font-family:'Assistant', sans-serif;
+}
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+hr {
+    border-top: 5px dashed #DDDDDD;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a:link {
+    color: #658864;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+.pic {
+    width: 23%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.info {
+    float: right;
+    margin-right: 30%;
+}
+* {
+    box-sizing: border-box;
+    
+  }
+.left {
+    float: left;
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    padding-left: 15%;
+    background-color: #B7B78A;
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    border-left: solid 5px;
+    display:block;
+}
+.right {
+    float: left;
+    width: 50%;
+    height: 200px;
+    padding: 10px;    
+    background-color: #B7B78A;
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    border-right: solid 5px;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.absoluteR {
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    width: 200px;
+    height: 100px;
+}
+div.absoluteL {
+    position: absolute;
+    top: 300px;
+    left: 170px;
+    width: 160px;
+    height: 160px;
+}
+#big {
+    max-width: 100%;
+    max-height: 100%;
+}
+h1 {
+    font-family: 'Aboreto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 25px;
+    color: #658864;
+}
+h2 {
+    font-family: 'Solitreo', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+h3 {
+    font-family: 'Solitreo', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #232e22
+}
+h4 {
+    font-family: 'Solitreo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #232e22
+}
+h5 {
+    font-family:'Assistant', sans-serif;
+    
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 10%;
+    border: 5px solid black;
+    padding: 5px;
+    background-color: #658864;
+    float: none;
+}
+#contact {
+    background-color: #658864;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.footer {
+    margin-top: 100px;
+    border-top: solid #232e22;
+    background-color: #DDDDDD;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DDDDDD;
+    padding: 25px;
+    text-align: center;
+    
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.cardhold {
+    padding: 2px 16px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit], select {
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
